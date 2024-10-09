@@ -3,7 +3,7 @@
     "hunting": {
       "name": "\uD83C\uDFAE Новые игры",
       "description": "Модуль добавляет новые игры:\n- Монетка\n- Охота\n- Рыбалка\n- Рулетка",
-      "url": "https://raw.githubusercontent.com/Ijidishurka/bfg-modules/refs/heads/main/hunting.py"
+      "url": "https://github.com/Maks891/bfg-modules/blob/main/hunting.py"
     },
     "TicTacToe": {
       "name": "❌⭕️ Крестики-нолики",
