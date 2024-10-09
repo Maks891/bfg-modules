@@ -8,7 +8,7 @@
     "TicTacToe": {
       "name": "❌⭕️ Крестики-нолики",
       "description": "Новая игра 'крестики-нолики' против других игроков (на деньги)",
-      "url": "https://raw.githubusercontent.com/Ijidishurka/bfg-modules/refs/heads/main/TicTacToe.py"
+      "url": "https://github.com/Maks891/bfg-modules/blob/main/TicTacToe.py"
     },
     "frog": {
       "name": "\uD83D\uDC38 Квак",
