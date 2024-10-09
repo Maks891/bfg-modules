@@ -29,7 +29,7 @@
     "referrals": {
       "name": "\uD83D\uDC65 Реферальная система",
       "description": "Реферальная система\nЕсть возможность настроить награду за реферала\nКоманда /refsetting",
-      "url": "https://raw.githubusercontent.com/Ijidishurka/bfg-modules/refs/heads/main/referrals.py"
+      "url": "https://github.com/Maks891/bfg-modules/blob/main/referrals.py"
     }
   },
 
