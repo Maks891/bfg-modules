@@ -33,13 +33,6 @@
     }
   },
 
-  "newyear": {
-    "newyearss": {
-      "name": "\uD83D\uDC65 Новый год",
-      "description": "Новый год\nДВ разработке, не трогать!",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/NewYears.py"
-    }
-  },
 
   "system": {
 
