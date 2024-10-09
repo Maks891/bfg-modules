@@ -3,12 +3,12 @@
     "hunting": {
       "name": "\uD83C\uDFAE Новые игры",
       "description": "Модуль добавляет новые игры:\n- Монетка\n- Охота\n- Рыбалка\n- Рулетка",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/hunting.py"
+      "url": "https://raw.github.com/Maks891/bfg-modules/refs/heads/main/hunting.py"
     },
     "TicTacToe": {
       "name": "❌⭕️ Крестики-нолики",
       "description": "Новая игра 'крестики-нолики' против других игроков (на деньги)",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/TicTacToe.py"
+      "url": "https://githubusercontent.com/Maks891/bfg-modules/blob/main/TicTacToe.py"
     },
     "frog": {
       "name": "\uD83D\uDC38 Квак",
