@@ -3,17 +3,17 @@
     "hunting": {
       "name": "\uD83C\uDFAE Новые игры",
       "description": "Модуль добавляет новые игры:\n- Монетка\n- Охота\n- Рыбалка\n- Рулетка",
-      "url": "https://raw.github.com/Maks891/bfg-modules/refs/heads/main/hunting.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/hunting.py"
     },
     "TicTacToe": {
       "name": "❌⭕️ Крестики-нолики",
       "description": "Новая игра 'крестики-нолики' против других игроков (на деньги)",
-      "url": "https://githubusercontent.com/Maks891/bfg-modules/blob/main/TicTacToe.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/TicTacToe.py"
     },
     "frog": {
       "name": "\uD83D\uDC38 Квак",
       "description": "Новая игра 'квак'",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/frog.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/frog.py"
     }
   },
 
@@ -21,7 +21,7 @@
     "halloween": {
       "name": "\uD83D\uDC7B Halloween",
       "description": "Ивент-модуль хэллоуин:\n- Новое оформление\n- Новый ивент \"монстры\"\n- Новая игра\n- Новые игровые валюты\n\n* Модуль использует собственную базу данных\n* Помощью по модулю введите \"хеллоуин\"",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/halloween.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/halloween.py"
     }
   },
 
@@ -29,7 +29,7 @@
     "referrals": {
       "name": "\uD83D\uDC65 Реферальная система",
       "description": "Реферальная система\nЕсть возможность настроить награду за реферала\nКоманда /refsetting",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/referrals.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/referrals.py"
     }
   },
 
@@ -37,7 +37,7 @@
     "newyear": {
       "name": "\uD83D\uDC65 Новогоднее обновление",
       "description": "Новогодний праздник\nНЕ СДЕЛАНО НЕ ТРОГАТЬ!",
-      "url": "https://github.com/Maks891/bfg-modules/blob/main/NewYears.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/NewYears.py"
     }
   },
 
