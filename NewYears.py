@@ -83,7 +83,7 @@ class Database:
 
 
 @antispam
-async def bag(message: types.Message):
+async def bagg(message: types.Message):
 	user_id = message.from_user.id
 	name = await gdb.url_name(user_id)
 	data = await db.get_balance(user_id)
@@ -92,6 +92,7 @@ async def bag(message: types.Message):
 
 def register_handlers(dp: Dispatcher):
   dp.register_message_handler(event, lambda message: message.text.lower() == 'новый год')
+  dp.register_message_handler(bagg, lambda message: message.text.lower() == 'мешман')
   dp.register_message_handler(shop, lambda message: message.text.lower() == 'шопнг')
 
 
