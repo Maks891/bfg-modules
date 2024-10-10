@@ -196,7 +196,7 @@ async def atack(call: types.CallbackQuery):
 		return
 	
 	txt = ''
-	hp = random.randint(1, 3)
+	hp = random.randint(1, 10)
 	MONSTER['hp'] = MONSTER['hp'] - hp
 	
 	await bot.answer_callback_query(call.id, text='')
