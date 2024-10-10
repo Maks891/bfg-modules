@@ -23,8 +23,8 @@
       "description": "Ивент-модуль хэллоуин:\n- Новое оформление\n- Новый ивент \"монстры\"\n- Новая игра\n- Новые игровые валюты\n\n* Модуль использует собственную базу данных\n* Помощью по модулю введите \"хеллоуин\"",
       "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/halloween.py"
     },
-      "newyear": {
-      "name": "\uD83D\uDC65 Новогоднее обновление",
+   "newyear": {
+      "name": "\uD83D\uDC67 Новогоднее обновление",
       "description": "Новогодний праздник\nНЕ СДЕЛАНО НЕ ТРОГАТЬ!",
       "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/NewYears.py"
     }
