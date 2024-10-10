@@ -22,6 +22,12 @@
       "name": "\uD83D\uDC7B Halloween",
       "description": "Ивент-модуль хэллоуин:\n- Новое оформление\n- Новый ивент \"монстры\"\n- Новая игра\n- Новые игровые валюты\n\n* Модуль использует собственную базу данных\n* Помощью по модулю введите \"хеллоуин\"",
       "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/halloween.py"
+    },
+   "newyears": {
+    "newyear": {
+      "name": "\uD83D\uDC65 Новогоднее обновление",
+      "description": "Новогодний праздник\nНЕ СДЕЛАНО НЕ ТРОГАТЬ!",
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/NewYears.py"
     }
   },
 
@@ -30,14 +36,6 @@
       "name": "\uD83D\uDC65 Реферальная система",
       "description": "Реферальная система\nЕсть возможность настроить награду за реферала\nКоманда /refsetting",
       "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/referrals.py"
-    }
-  },
-
-  "newyears": {
-    "newyear": {
-      "name": "\uD83D\uDC65 Новогоднее обновление",
-      "description": "Новогодний праздник\nНЕ СДЕЛАНО НЕ ТРОГАТЬ!",
-      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/NewYears.py"
     }
   },
 
