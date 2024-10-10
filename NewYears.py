@@ -86,7 +86,7 @@ class Database:
 async def bagg(message: types.Message):
 	user_id = message.from_user.id
 	name = await gdb.url_name(user_id)
-	data = await db.get_balance(user_id)
+	data = await gdb.get_balance(user_id)
 	await message.answer(f'{name}, в вашем новогоднем мешке:\n🍬 Снежки: {data[1]}\n🎃 Хлапушка: {data[2]}\n🎭 Подарки: {data[3]}')
 
 
