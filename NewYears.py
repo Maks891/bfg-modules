@@ -19,6 +19,39 @@ from commands.help import CONFIG as HELP_CONFIG
 
 
 
+class Database:
+	def __init__(self):
+		self.conn = sqlite3.connect('modules/temp/NewYears.db')
+		self.cursor = self.conn.cursor()
+		self.create_tables()
+
+	def create_tables(self):
+		self.cursor.execute('''
+			CREATE TABLE IF NOT EXISTS users (
+				user_id INTEGER,
+				snow INTEGER DEFAULT '0',
+				hlapyshka INTEGER DEFAULT '3',
+				podarok INTEGER DEFAULT '0'
+			)''')
+		self.conn.commit()
+		
+	async def reg_user(self, user_id):
+		ex = self.cursor.execute('SELECT user_id FROM users WHERE user_id = ?', (user_id,)).fetchone()
+		if not ex:
+			self.cursor.execute('INSERT INTO users (user_id) VALUES (?)', (user_id,))
+			self.conn.commit()
+			
+	async def get_balance(self, user_id):
+		await self.reg_user(user_id)
+		return self.cursor.execute('SELECT * FROM users WHERE user_id = ?', (user_id,)).fetchone()
+		
+	async def upd_candies(self, user_id, summ):
+		await self.reg_user(user_id)
+		self.cursor.execute('UPDATE users SET snow = snow + ? WHERE user_id = ?', (summ, user_id))
+		conngdb.commit()
+
+
+
 @antispam
 async def event(message: types.Message):
 	await message.answer(f'''<b>Ивент Новый год 🎃</b>
@@ -53,40 +86,11 @@ async def shop(message: types.Message):
 Открыть конфеты (кол-во)''')
 
 
-class Database:
-	def __init__(self):
-		self.conn = sqlite3.connect('modules/temp/NewYears.db')
-		self.cursor = self.conn.cursor()
-		self.create_tables()
-
-	def create_tables(self):
-		self.cursor.execute('''
-			CREATE TABLE IF NOT EXISTS users (
-				user_id INTEGER,
-				snow INTEGER DEFAULT '0',
-				hlapyshka INTEGER DEFAULT '3',
-				podarok INTEGER DEFAULT '0'
-			)''')
-		self.conn.commit()
-		
-	async def reg_user(self, user_id):
-		ex = self.cursor.execute('SELECT user_id FROM users WHERE user_id = ?', (user_id,)).fetchone()
-		if not ex:
-			self.cursor.execute('INSERT INTO users (user_id) VALUES (?)', (user_id,))
-			self.conn.commit()
-			
-	async def get_balance(self, user_id):
-		await self.reg_user(user_id)
-		return self.cursor.execute('SELECT * FROM users WHERE user_id = ?', (user_id,)).fetchone()
-		conngdb.commit()
-
-
-
 @antispam
 async def bagg(message: types.Message):
 	user_id = message.from_user.id
 	name = await gdb.url_name(user_id)
-	data = await gdb.get_balance(user_id)
+	data = await db.get_balance(user_id)
 	await message.answer(f'{name}, в вашем новогоднем мешке:\n🍬 Снежки: {data[1]}\n🎃 Хлапушка: {data[2]}\n🎭 Подарки: {data[3]}')
 
 
