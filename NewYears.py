@@ -78,7 +78,7 @@ class Database:
 	async def get_balance(self, user_id):
 		await self.reg_user(user_id)
 		return self.cursor.execute('SELECT * FROM users WHERE user_id = ?', (user_id,)).fetchone()
-	
+		conngdb.commit()
 
 
 
