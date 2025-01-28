@@ -11,7 +11,6 @@ import sqlite3
 
 from commands.main import CONFIG as HELLO_CONFIG
 from commands.help import CONFIG as HELP_CONFIG
-from user import BFGuser
 
 
 class SetSummState(StatesGroup):
