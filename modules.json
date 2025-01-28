@@ -33,7 +33,7 @@
   "wcalendar": {
       "name": "\uD83C\uDF85 Winter-calendar",
       "description": "Ивент-модуль зима:\n- Новое оформление\n- Ивент календарь (команда \"календарь\")\n\n* Модуль использует собственную базу данных",
-      "url": "https://raw.githubusercontent.com/Ijidishurka/bfg-modules/refs/heads/main/wcalendar.py"
+      "url": "https://raw.githubusercontent.com/Maks891/bfg-modules/refs/heads/main/wcalendar.py"
     }
   },
 
